@@ -1,6 +1,6 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "my-tf-rg"
+    resource_group_name  = "TF_STORAGE_GITHUBACTIONS"
     storage_account_name = var.storage_account_name
     container_name       = var.container_name
     key                  = var.state_key
